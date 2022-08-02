@@ -21,7 +21,7 @@ sheet = wb.active
 # 版本控制測試用新增段落
 
 """
-# 修改工作表的資料，方法有二，by直接定位 and 相對定位
+# 修改工作表的資料，方法有二種，by直接定位 and 相對定位
 sheet['A1'] = 87                  # 設定資料   A1
 sheet.cell(row=1, column=2).value = 'OpenPyxl Tutorial' # 設定資料 B1
 wb.save("sample_file.xlsx")
